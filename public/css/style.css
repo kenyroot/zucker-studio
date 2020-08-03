@@ -1,0 +1,33 @@
+.weather__row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.weather__day {
+    width: 150px;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.weather__day:hover {
+    box-shadow: 0 0 5px 1px #000000;
+}
+
+.weather__image {
+    padding: 15px;
+}
+
+.weather__top {
+    background: #0097B9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+}
+
+.weather__bottom {
+    text-align: center;
+    font-size: 1.3em;
+}
